@@ -14,7 +14,11 @@
             method: 'GET'
         }).done(function (c) {
             console.log(c)
+            document.getElementById('all').innerHTML = c
+            
          })
     </script>
+    <div id='all'></div>
+    
 </body>
 </html>
